@@ -3,6 +3,7 @@ import { Card } from "react-bootstrap";
 import imgLogo from "../Components/Image/main1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 export const CardExample = () => {
+  const [isShow, setISShow] = useState("true");
   return <div></div>;
 };
 // import React, { useState } from "react";
