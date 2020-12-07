@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
+import imgLogo from "../Components/Image/main1.jpg";
 export const CardExample = () => {
   return <div></div>;
 };
