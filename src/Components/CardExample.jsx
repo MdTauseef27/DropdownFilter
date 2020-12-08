@@ -4,16 +4,13 @@ import imgLogo from "../Components/Image/main1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 export const CardExample = () => {
   const [isShow, setISShow] = useState("true");
-  return <div></div>;
+  return (
+    <div>
+      <Card></Card>
+    </div>
+  );
 };
-// import React, { useState } from "react";
-// import { Card, Button } from "react-bootstrap";
-// import imgLogo from "../Components/Image/main1.jpg";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// export const CardExample = () => {
-//   const [isShow, setIsShow] = useState("true");
-//   return (
-//     <div>
+
 //       {isShow && (
 //         <Card style={{ width: "300px", height: "300px" }}>
 //           <Card.Img
