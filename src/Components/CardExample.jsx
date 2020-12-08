@@ -10,19 +10,13 @@ export const CardExample = () => {
         <Card.Img
           style={{ width: "100px", height: "100px" }}
           src={imgLogo}
+          alt=""
         ></Card.Img>
       </Card>
     </div>
   );
 };
 
-//       {isShow && (
-//         <Card style={{ width: "300px", height: "300px" }}>
-//           <Card.Img
-//             style={{ width: "100px", height: "100px" }}
-//             src={imgLogo}
-//             alt=""
-//           />
 //           <Card.Body>
 //             <Card.Title>OnClick Hideing a Card</Card.Title>
 //             <Card.Text>
