@@ -7,7 +7,7 @@ export const CardExample = () => {
   return (
     <div>
       <Card style={{ width: "300px", height: "300px" }}>
-        <Card.Img style={{ width: "100px" }}></Card.Img>
+        <Card.Img style={{ width: "100px", height: "100px" }}></Card.Img>
       </Card>
     </div>
   );
