@@ -6,7 +6,7 @@ export const CardExample = () => {
   const [isShow, setISShow] = useState("true");
   return (
     <div>
-      <Card style={{ width: "300px" }}></Card>
+      <Card style={{ width: "300px", height: "300px" }}></Card>
     </div>
   );
 };
