@@ -14,6 +14,7 @@ export const CardExample = () => {
         ></Card.Img>
         <Card.Body>
           <Card.Title>Click To Hide</Card.Title>
+          <Card.Text></Card.Text>
         </Card.Body>
       </Card>
     </div>
