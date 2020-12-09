@@ -20,7 +20,6 @@ export const CardExample = () => {
   );
 };
 
-//           <Card.Body>
 //             <Card.Title>OnClick Hideing a Card</Card.Title>
 //             <Card.Text>
 //               Some quick example text to build on the card title and make up the
