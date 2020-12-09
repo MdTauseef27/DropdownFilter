@@ -13,7 +13,7 @@ export const CardExample = () => {
           alt=""
         ></Card.Img>
         <Card.Body>
-          <Card.Title></Card.Title>
+          <Card.Title>Click To Hide</Card.Title>
         </Card.Body>
       </Card>
     </div>
