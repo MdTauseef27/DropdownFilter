@@ -12,7 +12,9 @@ export const CardExample = () => {
           src={imgLogo}
           alt=""
         ></Card.Img>
-        <Card.Body></Card.Body>
+        <Card.Body>
+          <Card.Title></Card.Title>
+        </Card.Body>
       </Card>
     </div>
   );
