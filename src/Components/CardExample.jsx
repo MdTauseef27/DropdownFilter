@@ -12,6 +12,7 @@ export const CardExample = () => {
           src={imgLogo}
           alt=""
         ></Card.Img>
+        <Card.Body></Card.Body>
       </Card>
     </div>
   );
