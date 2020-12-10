@@ -26,7 +26,6 @@ export const CardExample = () => {
   );
 };
 
-//           </Card.Body>
 //         </Card>
 //       )}
 //       <br></br>
