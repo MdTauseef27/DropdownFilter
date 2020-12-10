@@ -22,6 +22,7 @@ export const CardExample = () => {
           </Card.Text>
         </Card.Body>
       </Card>
+      <br></br>
     </div>
   );
 };
