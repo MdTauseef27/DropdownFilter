@@ -27,10 +27,6 @@ export const CardExample = () => {
   );
 };
 
-//         </Card>
-//       )}
-//       <br></br>
-
 //       <Button variant="primary" onClick={() => setIsShow(!isShow)}>
 //         Click ME
 //       </Button>
