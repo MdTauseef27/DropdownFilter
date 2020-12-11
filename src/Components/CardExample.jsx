@@ -23,7 +23,9 @@ export const CardExample = () => {
         </Card.Body>
       </Card>
       <br></br>
-      <Button variant="primary">Click ME</Button>
+      <Button variant="primary" onClick={() => setISShow(!isShow)}>
+        Click ME
+      </Button>
     </div>
   );
 };
