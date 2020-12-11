@@ -29,6 +29,6 @@ export const CardExample = () => {
     </div>
   );
 };
-//     </div>
+
 //   );
 // };
