@@ -29,7 +29,7 @@ export const CardExample = () => {
         Click ME
       </Button>
       <Button>Ok</Button>
-      <Button></Button>
+      <Button>cancel</Button>
     </div>
   );
 };
