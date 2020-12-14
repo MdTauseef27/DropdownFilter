@@ -3,6 +3,7 @@ const FilterData = () => {
   const [showData, setShowData] = useState([
     {
       name: "James",
+      age: "31",
     },
   ]);
   return <div></div>;
