@@ -1,5 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 const FilterData = () => {
+  const [showData, setShowData] = useState([
+    {
+      name: "James",
+    },
+  ]);
   return <div></div>;
 };
 
