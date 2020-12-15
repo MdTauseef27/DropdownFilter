@@ -9,6 +9,9 @@ const FilterData = () => {
       name: "John",
       age: "46",
     },
+    {
+      name: "paul",
+    },
   ]);
   return <div></div>;
 };
