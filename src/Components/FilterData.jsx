@@ -7,7 +7,7 @@ const FilterData = () => {
     },
     {
       name: "John",
-      age: "46",
+      age: 46,
     },
     {
       name: "paul",
