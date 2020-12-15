@@ -3,7 +3,7 @@ const FilterData = () => {
   const [showData, setShowData] = useState([
     {
       name: "James",
-      age: "31",
+      age: 31,
     },
     {
       name: "John",
