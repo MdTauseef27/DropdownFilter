@@ -21,7 +21,6 @@ const FilterData = () => {
   return <div></div>;
 };
 
-// export const FilterData = () => {
 //   const [showData, setShowData] = useState([
 //     {
 //       name: "James",
