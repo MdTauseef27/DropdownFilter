@@ -21,7 +21,7 @@ const FilterData = () => {
   return <div></div>;
 };
 
-//   const [showData, setShowData] = useState([
+//   const [showData,
 //     {
 //       name: "James",
 //       age: 31,
