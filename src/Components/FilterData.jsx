@@ -20,7 +20,7 @@ const FilterData = () => {
   ]);
   return <div></div>;
 };
-//       name: "James",
+
 //       age: 31,
 //     },
 //     {
