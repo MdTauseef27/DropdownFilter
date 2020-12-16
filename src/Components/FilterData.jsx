@@ -21,7 +21,6 @@ const FilterData = () => {
   return <div></div>;
 };
 
-// import React, { useState } from "react";
 // import { Button } from "react-bootstrap";
 // export const FilterData = () => {
 //   const [showData, setShowData] = useState([
