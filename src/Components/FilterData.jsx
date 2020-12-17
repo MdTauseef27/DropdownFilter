@@ -21,9 +21,6 @@ const FilterData = () => {
   return <div></div>;
 };
 
-//     },
-//     {
-//       name: "John",
 //       age: 45,
 //     },
 //     {
