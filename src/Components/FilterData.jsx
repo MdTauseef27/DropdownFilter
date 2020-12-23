@@ -23,7 +23,10 @@ const FilterData = () => {
       {showData
         .filter((person) => person.age > 60)
         .map((filteredPerson) => (
-          <li>{filteredPerson.name}</li>
+          <li>
+            {filteredPerson.name}
+            <br></br>
+          </li>
         ))}
     </div>
   );
