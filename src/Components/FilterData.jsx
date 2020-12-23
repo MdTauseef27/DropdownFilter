@@ -26,6 +26,7 @@ const FilterData = () => {
           <li>
             {filteredPerson.name}
             <br></br>
+            {filteredPerson.age}
           </li>
         ))}
     </div>
