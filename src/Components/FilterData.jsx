@@ -21,8 +21,6 @@ const FilterData = () => {
   return <div></div>;
 };
 
-//   ]);
-
 //   return (
 //     <div>
 //       {showData
