@@ -18,7 +18,15 @@ const FilterData = () => {
       age: 34,
     },
   ]);
-  return <div></div>;
+  return (
+    <div>
+      {showData
+        .filter((person) => person.age > 60)
+        .map((filteredPerson) => (
+          <li></li>
+        ))}
+    </div>
+  );
 };
 
 //   return (
