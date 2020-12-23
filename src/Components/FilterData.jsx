@@ -29,6 +29,7 @@ const FilterData = () => {
             {filteredPerson.age}
           </li>
         ))}
+      <button>Filtered Data</button>
     </div>
   );
 };
