@@ -34,7 +34,6 @@ export const FilterData = () => {
   );
 };
 
-//     <div>
 //       {showData
 //         .filter((person) => person.age > 60)
 //         .map((filteredPerson) => (
