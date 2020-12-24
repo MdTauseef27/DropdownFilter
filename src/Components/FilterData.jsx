@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const FilterData = () => {
+export const FilterData = () => {
   const [showData, setShowData] = useState([
     {
       name: "James",
