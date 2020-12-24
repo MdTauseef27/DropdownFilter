@@ -34,7 +34,6 @@ const FilterData = () => {
   );
 };
 
-//   return (
 //     <div>
 //       {showData
 //         .filter((person) => person.age > 60)
