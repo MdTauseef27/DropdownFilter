@@ -29,7 +29,7 @@ const FilterData = () => {
             {filteredPerson.age}
           </li>
         ))}
-      <button>Filtered Data</button>
+      <button onClick={() => setShowData(showData)}>Filtered Data</button>
     </div>
   );
 };
