@@ -21,7 +21,7 @@ export const FilterData = () => {
   return (
     <div>
       {showData
-        .filter((person) => person.age > 60)
+        .filter((person) => person.age < 60)
         .map((filteredPerson) => (
           <li>
             {filteredPerson.name}
