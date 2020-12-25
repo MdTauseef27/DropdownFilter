@@ -35,7 +35,6 @@ export const FilterData = () => {
   );
 };
 
-//             <br></br>
 //             {filteredPerson.age}
 //           </li>
 //         ))}
