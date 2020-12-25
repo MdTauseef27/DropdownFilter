@@ -34,7 +34,6 @@ export const FilterData = () => {
   );
 };
 
-//         .map((filteredPerson) => (
 //           <li>
 //             {filteredPerson.name}
 //             <br></br>
