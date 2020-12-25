@@ -35,7 +35,6 @@ export const FilterData = () => {
   );
 };
 
-//             {filteredPerson.age}
 //           </li>
 //         ))}
 //       <Button onClick={() => setShowData(showData)}>Filtered Data</Button>
