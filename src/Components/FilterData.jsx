@@ -34,6 +34,5 @@ export const FilterData = () => {
   );
 };
 
-//     </div>
 //   );
 // };
