@@ -30,7 +30,6 @@ export const FilterData = () => {
           </li>
         ))}
       <button onClick={() => setShowData(showData)}>Filtered Data</button>
-      <button> </button>
     </div>
   );
 };
