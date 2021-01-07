@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 const items = require("./Products.json");
 
-const Products = () => {
+export const Products1 = () => {
   //set and setState being initialized
   const [products, setProducts] = useState(items);
   const [category, setCategory] = useState("all");
@@ -103,4 +103,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+// export default Products;

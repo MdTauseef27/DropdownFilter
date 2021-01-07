@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import { DropdownFilter } from "./Components/DropdownFilter";
 import { CardExample } from "./Components/CardExample";
@@ -6,9 +6,9 @@ import { FilterData } from "./Components/FilterData";
 import { FilterDataEx } from "./Components/FilterDataEx";
 import { FilteredName } from "./Components/FilteredName";
 
-import Products from "./Components/Products";
-import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
+import { Products1 } from "./Components/Products1";
+import { Nav1 } from "./Components/Nav1";
+import { Footer1 } from "./Components/Footer1";
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
       {/* <FilterData /> */}
       {/* <FilterDataEx /> */}
       {/* <FilteredName /> */}
-      <Nav />
-      <Products />
-      <Footer />
+      <Nav1 />
+      <Products1 />
+      <Footer1 />
     </div>
   );
 }
