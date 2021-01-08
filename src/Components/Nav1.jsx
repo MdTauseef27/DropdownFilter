@@ -17,7 +17,7 @@ export const Nav1 = () => {
         </Form>
       </Navbar> */}
 
-      <nav>
+      {/* <nav>
         <ul>
           <li>
             <img
@@ -42,7 +42,7 @@ export const Nav1 = () => {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 };
