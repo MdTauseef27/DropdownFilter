@@ -4,6 +4,7 @@ import { Nav, Form, FormControl, Button, Navbar } from "react-bootstrap";
 export const Nav1 = () => {
   return (
     <div>
+      <Navbar bg="dark" variant="dark"></Navbar>
       {/* <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Shopping</Navbar.Brand>
         <Nav className="mr-auto">
