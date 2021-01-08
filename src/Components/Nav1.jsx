@@ -15,6 +15,7 @@ export const Nav1 = () => {
         <Navbar.Brand href="#home">Shopping</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#products">Products</Nav.Link>
         </Nav>
       </Navbar>
       {/* <Navbar bg="dark" variant="dark">
