@@ -89,11 +89,19 @@ export const Products1 = () => {
         {products.map((item, key) => {
           return (
             <div className="card">
-              <h2 className="title">{item.title}</h2>
-              <img src={item.cover} alt={item.title} />
+              <h6 className="title" style={{ fontSize: "18px" }}>
+                {item.title}
+              </h6>
+              <img
+                src={item.cover}
+                alt={item.title}
+                // style={{ width: "100px", height: "80px", marginLeft: "50px" }}
+              />
 
-              <p>Polo Ralph Lauren</p>
-              <p className="description">{item.description}</p>
+              {/* <p>Polo Ralph Lauren</p> */}
+              <p className="description" style={{ marginTop: "10px" }}>
+                {item.description}
+              </p>
               <p className="price">${item.price}</p>
             </div>
           );
