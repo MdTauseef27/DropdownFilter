@@ -13,7 +13,9 @@ export const Nav1 = () => {
     <div>
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Shopping</Navbar.Brand>
-        <Nav className="mr-auto"></Nav>
+        <Nav className="mr-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+        </Nav>
       </Navbar>
       {/* <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Shopping</Navbar.Brand>
