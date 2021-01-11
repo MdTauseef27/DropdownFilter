@@ -20,7 +20,7 @@ function App() {
       {/* <FilteredName /> */}
       <Nav1 />
       <Products1 />
-      <Footer1 />
+      {/* <Footer1 /> */}
     </div>
   );
 }
