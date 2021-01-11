@@ -6,7 +6,8 @@
         "alt":"Polo 11 Heated Jacket",
         
         "description" : "The jacket's groundbreaking onboard heating system uses fully flexible, featherweight carbon and silver ink to provide the wearer with up to 11 hours of heat, controlled in real time by the exclusive RL Heat app and powered by a signature Polo-branded Mophie battery pack, included.",
-        "price" : 1098.00,
+        "price":1099.00,
+        // "price" : 1098.00,
         "category" : "jacket"
     },
     {
