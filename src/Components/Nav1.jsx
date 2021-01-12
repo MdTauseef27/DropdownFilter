@@ -17,6 +17,13 @@ export const Nav1 = () => {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#products">Products</Nav.Link>
           <Nav.Link href="#contacts">Contacts</Nav.Link>
+          <Form inline style={{ marginLeft: "400px" }}>
+            <FormControl
+              type="text"
+              placeholder="Search"
+              className=" mr-sm-4"
+            />
+          </Form>
         </Nav>
       </Navbar>
       {/* <Navbar bg="dark" variant="dark">
