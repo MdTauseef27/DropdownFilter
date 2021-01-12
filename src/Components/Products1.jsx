@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Form, Navbar, Row, Col } from "react-bootstrap";
+import { Form, Navbar, Row, Col, FormControl } from "react-bootstrap";
 const items = require("./Products.json");
 
 export const Products1 = () => {
@@ -8,7 +8,7 @@ export const Products1 = () => {
   const [category, setCategory] = useState("all");
   const [min, setMin] = useState("");
   const [max, setMax] = useState("");
-  console.log("All Products", products);
+  console.log("All Products", items);
   //e = event for the value when select changes
   const handleFilterChange = (e, filterType) => {
     //changes state
@@ -51,7 +51,7 @@ export const Products1 = () => {
   return (
     <div>
       <Navbar bg="light" variant="dark">
-        <Form className="filter">
+        <Form>
           <Row>
             <Col lg="3">
               <Form.Label style={{ fontSize: "16px" }}>
@@ -98,6 +98,16 @@ export const Products1 = () => {
                 placeholder="Max Price"
               />
             </Col>
+            {/* <Col lg="2">
+              <Form inline>
+                <FormControl
+                  type="text"
+                  placeholder="Search"
+                  className=" mr-sm-4"
+                  onChange={(e) => handleFilterChange(e, "category")}
+                />
+              </Form>
+            </Col> */}
           </Row>
         </Form>
       </Navbar>
