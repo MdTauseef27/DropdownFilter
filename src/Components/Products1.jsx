@@ -121,7 +121,6 @@ export const Products1 = () => {
               </h6>
               <img src={item.cover} alt={item.title} />
 
-              {/* <p>Polo Ralph Lauren</p> */}
               <p className="description" style={{ marginTop: "10px" }}>
                 {item.description}
               </p>
