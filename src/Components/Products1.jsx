@@ -11,7 +11,6 @@ export const Products1 = () => {
   console.log("All Products", items);
   //e = event for the value when select changes
   const handleFilterChange = (e, filterType) => {
-    //changes state
     switch (filterType) {
       case "category":
         setCategory(e.target.value);
