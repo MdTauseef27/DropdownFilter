@@ -112,7 +112,6 @@ export const Products1 = () => {
         </Form>
       </Navbar>
       <div className="master--card">
-        {/*state*/}
         {products.map((item) => {
           return (
             <div className="card" style={{ backgroundColor: "#F8F9FA" }}>
