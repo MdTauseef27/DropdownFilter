@@ -26,7 +26,7 @@ export const Products1 = () => {
         break;
     }
   };
-  //initial render then updates when state/criteria is changed
+
   useEffect(() => {
     let filteredProducts = items;
 
