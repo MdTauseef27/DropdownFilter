@@ -9,7 +9,7 @@ export const Products1 = () => {
   const [min, setMin] = useState("");
   const [max, setMax] = useState("");
   console.log("All Products", items);
-  //e = event for the value when select changes
+
   const handleFilterChange = (e, filterType) => {
     switch (filterType) {
       case "category":
