@@ -46,7 +46,6 @@ export const Products1 = () => {
       );
     }
     setProducts(filteredProducts);
-    //variable being listened for change
   }, [category, min, max]);
   return (
     <div>
