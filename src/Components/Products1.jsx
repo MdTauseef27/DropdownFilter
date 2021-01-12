@@ -66,7 +66,6 @@ export const Products1 = () => {
                 onChange={(e) => handleFilterChange(e, "category")}
               >
                 {" "}
-                {/*listens for when input field is changed*/}
                 <option value="all">All</option>
                 <option value="jacket">Jackets</option>
                 <option value="jean">Jeans</option>
