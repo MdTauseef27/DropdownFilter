@@ -30,7 +30,7 @@ function App() {
       {/* <Products1 /> */}
       {/* <Footer1 /> */}
       {/* <Lifting Count={isCount} decrement={decrement} increment={increment} /> */}
-      <ItemsScrollBar />
+      {/* <ItemsScrollBar /> */}
     </div>
   );
 }
