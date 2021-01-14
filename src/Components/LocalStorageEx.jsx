@@ -9,11 +9,11 @@ export const LocalStorageEx = () => {
     localStorage.setItem("myValueInLocalStorage", value);
   }, [value]);
 
-  //   const on = (event) => setValue(event.target.value);
+  const onChange = (event) => setValue(event.target.value);
   return (
     <div>
       <h1>Hello React with Local Storage!</h1>
-      {/* <input value={value} type="text" onChange={onChange} /> */}
+      <input value={value} type="text" onChange={onChange} />
       <Nav.Link onClick={(e) => setValue(e.target.value)}>
         Corporate Treasury
       </Nav.Link>
