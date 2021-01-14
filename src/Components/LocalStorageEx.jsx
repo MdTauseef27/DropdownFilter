@@ -1,8 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 export const LocalStorageEx = () => {
-  return (
-    <div>
-      <h1>Hiiiiiiiiiii</h1>
-    </div>
-  );
+  const [value, setValue] = useState();
+  return <div></div>;
 };
