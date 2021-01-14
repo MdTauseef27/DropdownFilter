@@ -1,6 +1,10 @@
 import React from "react";
 const LocalStorageEx = () => {
-  return <div></div>;
+  return (
+    <div>
+      <h1>Hiiiiiiiiiii</h1>
+    </div>
+  );
 };
 
 export default LocalStorageEx;
