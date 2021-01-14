@@ -26,8 +26,8 @@ function App() {
       {/* <FilterData /> */}
       {/* <FilterDataEx /> */}
       {/* <FilteredName /> */}
-      <Nav1 />
-      <Products1 />
+      {/* <Nav1 /> */}
+      {/* <Products1 /> */}
       {/* <Footer1 /> */}
       {/* <Lifting Count={isCount} decrement={decrement} increment={increment} /> */}
       {/* <ItemsScrollBar /> */}
