@@ -8,5 +8,9 @@
 // };
 import React from "react";
 export const LocalStorageExChild1 = () => {
-  return <div></div>;
+  return (
+    <div>
+      <h1>hiiiiiiiiiiiii</h1>
+    </div>
+  );
 };

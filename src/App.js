@@ -34,7 +34,7 @@ function App() {
       {/* <Lifting Count={isCount} decrement={decrement} increment={increment} /> */}
       {/* <ItemsScrollBar /> */}
       {/* <LocalStorageEx /> */}
-      {/* <LocalStorageEx1 /> */}
+      <LocalStorageEx1 />
     </div>
   );
 }
