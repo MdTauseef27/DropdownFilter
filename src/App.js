@@ -12,6 +12,7 @@ import { Footer1 } from "./Components/Footer1";
 import { Lifting } from "./Components/Lifting";
 import { ItemsScrollBar } from "./Components/ItemsScrollBar";
 import { LocalStorageEx } from "./Components/LocalStorageEx";
+import { LocalStorageEx1 } from "./Components/LocalStorageEx1";
 function App() {
   // const [isCount, setIsCount] = useState(0);
   // const increment = () => {
@@ -32,7 +33,8 @@ function App() {
       {/* <Footer1 /> */}
       {/* <Lifting Count={isCount} decrement={decrement} increment={increment} /> */}
       {/* <ItemsScrollBar /> */}
-      <LocalStorageEx />
+      {/* <LocalStorageEx /> */}
+      <LocalStorageEx1 />
     </div>
   );
 }
