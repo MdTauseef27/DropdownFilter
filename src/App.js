@@ -14,13 +14,13 @@ import { ItemsScrollBar } from "./Components/ItemsScrollBar";
 import { LocalStorageEx } from "./Components/LocalStorageEx";
 import { LocalStorageEx1 } from "./Components/LocalStorageEx1";
 function App() {
-  // const [isCount, setIsCount] = useState(0);
-  // const increment = () => {
-  //   setIsCount(isCount + 1);
-  // };
-  // const decrement = () => {
-  //   setIsCount(isCount - 1);
-  // };
+  const [isCount, setIsCount] = useState(0);
+  const increment = () => {
+    setIsCount(isCount + 1);
+  };
+  const decrement = () => {
+    setIsCount(isCount - 1);
+  };
   return (
     <div>
       {/* <DropdownFilter /> */}
@@ -31,10 +31,10 @@ function App() {
       {/* <Nav1 /> */}
       {/* <Products1 /> */}
       {/* <Footer1 /> */}
-      {/* <Lifting Count={isCount} decrement={decrement} increment={increment} /> */}
+      <Lifting Count={isCount} decrement={decrement} increment={increment} />
       {/* <ItemsScrollBar /> */}
       {/* <LocalStorageEx /> */}
-      <LocalStorageEx1 />
+      {/* <LocalStorageEx1 /> */}
     </div>
   );
 }
