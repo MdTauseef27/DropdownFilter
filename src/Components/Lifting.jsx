@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import App from "../App";
 import { LiftingChild } from "./LiftingChild";
 export const Lifting = ({ Count, decrement, increment, isNameMy }) => {
-  const [isName, setIsName] = useState("Mohammed Tauseef");
+  const [isName] = useState("Mohammed Tauseef");
   return (
     <div>
       <h1>hiiiiiiiiiii</h1>
