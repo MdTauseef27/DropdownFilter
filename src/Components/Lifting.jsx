@@ -9,13 +9,7 @@ export const Lifting = ({ Count, decrement, increment }) => {
   // const decrement = () => {
   //   setIsCount(isCount - 1);
   // };
-  const [isCount, setIsCount] = useState(0);
-  const increments = () => {
-    setIsCount(isCount + 1);
-  };
-  const decrements = () => {
-    setIsCount(isCount - 1);
-  };
+
   const [isName, setIsName] = useState("Mohammed Tauseef");
   return (
     <div>
@@ -24,12 +18,7 @@ export const Lifting = ({ Count, decrement, increment }) => {
       <button onClick={decrement}>Decrement</button>
       <p>Increment:{Count}</p>
       {/* {isName} */}
-      <LiftingChild
-        isName={isName}
-        increments={increments}
-        decrements={decrements}
-        isCount={isCount}
-      />
+      <LiftingChild isName={isName} />
     </div>
   );
 };
