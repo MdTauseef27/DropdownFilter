@@ -21,6 +21,7 @@ function App() {
   const decrement = () => {
     setIsCount(isCount - 1);
   };
+  const [isNameMy, setIsNameMy] = useState("Zubair Ahmed");
   return (
     <div>
       {/* <DropdownFilter /> */}
@@ -31,7 +32,12 @@ function App() {
       {/* <Nav1 /> */}
       {/* <Products1 /> */}
       {/* <Footer1 /> */}
-      <Lifting Count={isCount} decrement={decrement} increment={increment} />
+      <Lifting
+        Count={isCount}
+        decrement={decrement}
+        increment={increment}
+        isNameMy={isNameMy}
+      />
       {/* <ItemsScrollBar /> */}
       {/* <LocalStorageEx /> */}
       {/* <LocalStorageEx1 /> */}
