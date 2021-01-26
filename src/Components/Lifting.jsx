@@ -2,14 +2,6 @@ import React, { useState } from "react";
 import App from "../App";
 import { LiftingChild } from "./LiftingChild";
 export const Lifting = ({ Count, decrement, increment, isNameMy }) => {
-  // const [isCount, setIsCount] = useState(0);
-  // const increment = () => {
-  //   setIsCount(isCount + 1);
-  // };
-  // const decrement = () => {
-  //   setIsCount(isCount - 1);
-  // };
-
   const [isName, setIsName] = useState("Mohammed Tauseef");
   return (
     <div>
