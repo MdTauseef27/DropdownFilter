@@ -17,7 +17,7 @@ export const Lifting = ({ Count, decrement, increment }) => {
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
       <p>Increment:{Count}</p>
-      {/* {isName} */}
+
       <LiftingChild isName={isName} />
     </div>
   );
