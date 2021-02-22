@@ -12,7 +12,6 @@ export const LiftingChild = ({
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
       <p>Increment:{Count}</p>
-      <p>Name:{isNameMy}</p>
     </div>
   );
 };
