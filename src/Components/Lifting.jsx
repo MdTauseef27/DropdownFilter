@@ -10,7 +10,7 @@ export const Lifting = ({}) => {
   const decrement = () => {
     setIsCount(isCount - 1);
   };
-  const [isNameMy, setIsNameMy] = useState("Zubair Ahmed");
+  const [isNameMy, setIsNameMy] = useState("");
   return (
     <div>
       <LiftingChild
