@@ -5,7 +5,6 @@ export const Lifting = ({ Count, decrement, increment, isNameMy }) => {
   const [isName] = useState("Mohammed Tauseef");
   return (
     <div>
-      <h1>hiiiiiiiiiii</h1>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
       <p>Increment:{Count}</p>
