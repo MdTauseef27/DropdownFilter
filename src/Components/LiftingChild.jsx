@@ -1,11 +1,5 @@
 import React from "react";
-export const LiftingChild = ({
-  isName,
-  increment,
-  decrement,
-  Count,
-  isNameMy,
-}) => {
+export const LiftingChild = ({ isName, increment, decrement, Count }) => {
   return (
     <div>
       <h1>{isName}</h1>
