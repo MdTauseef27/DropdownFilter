@@ -18,7 +18,6 @@ export const Lifting = ({}) => {
         Count={isCount}
         decrement={decrement}
         increment={increment}
-        isNameMy={isNameMy}
       />
     </div>
   );
