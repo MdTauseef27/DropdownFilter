@@ -8,7 +8,7 @@ import "ag-grid-community/dist/styles/ag-theme-alpine.css";
 export const DropdownFilter = () => {
   const [selectedCategory, setSelectedCategory] = useState("1");
   const [rowdata, setRowData] = useState([
-    { value: 1, lable: "Chair", category: 2 },
+    { value: 1, input: "Chair", category: 2 },
     { value: 2, lable: "Laptop", category: 2 },
     { value: 3, lable: "Bed", category: 1 },
     { value: 4, lable: "Fan", category: 1 },
