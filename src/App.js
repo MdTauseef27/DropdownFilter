@@ -5,7 +5,7 @@ import { CardExample } from "./Components/CardExample";
 import { FilterData } from "./Components/FilterData";
 import { FilterDataEx } from "./Components/FilterDataEx";
 import { FilteredName } from "./Components/FilteredName";
-
+import { DropdownExamples } from "./Components/DropdownExamples";
 import { Products1 } from "./Components/Products1";
 import { Nav1 } from "./Components/Nav1";
 import { Footer1 } from "./Components/Footer1";
@@ -17,6 +17,7 @@ function App() {
   return (
     <div>
       {/* <DropdownFilter /> */}
+      <DropdownExamples />
       {/* <CardExample /> */}
       {/* <FilterData /> */}
       {/* <FilterDataEx /> */}
@@ -24,7 +25,7 @@ function App() {
       {/* <Nav1 /> */}
       {/* <Products1 /> */}
       {/* <Footer1 /> */}
-      <Lifting />
+      {/* <Lifting /> */}
       {/* <ItemsScrollBar /> */}
       {/* <LocalStorageEx /> */}
       {/* <LocalStorageEx1 /> */}
