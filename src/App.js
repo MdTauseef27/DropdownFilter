@@ -17,11 +17,11 @@ function App() {
   return (
     <div>
       {/* <DropdownFilter /> */}
-      <DropdownExamples />
+      {/* <DropdownExamples /> */}
       {/* <CardExample /> */}
       {/* <FilterData /> */}
       {/* <FilterDataEx /> */}
-      {/* <FilteredName /> */}
+      <FilteredName />
       {/* <Nav1 /> */}
       {/* <Products1 /> */}
       {/* <Footer1 /> */}
