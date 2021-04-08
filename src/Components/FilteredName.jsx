@@ -18,7 +18,7 @@ export const FilteredName = () => {
 
       {isShow &&
         names
-          .filter((name) => name.includes("K"))
+          .filter((name) => name.includes("Z"))
           .map((filteredName) => (
             <Card>
               <li>{filteredName}</li>
