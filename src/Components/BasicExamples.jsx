@@ -1,4 +1,8 @@
 import React from "react";
 export const BasicExamples = () => {
-  return <h1>hiiiiiiiii</h1>;
+  return (
+    <div>
+      <h1>Well Come To React World</h1>
+    </div>
+  );
 };

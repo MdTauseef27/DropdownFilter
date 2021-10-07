@@ -20,7 +20,7 @@ function App() {
     <div>
       {/* <DropdownFilter /> */}
       {/* <DropdownExamples /> */}
-      <CardExample />
+      {/* <CardExample /> */}
       {/* <FilterData /> */}
       {/* <FilterDataEx /> */}
       {/*<FilteredName />*/}
