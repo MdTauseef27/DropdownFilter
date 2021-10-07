@@ -14,6 +14,7 @@ import { ItemsScrollBar } from "./Components/ItemsScrollBar";
 import { LocalStorageEx } from "./Components/LocalStorageEx";
 import { LocalStorageEx1 } from "./Components/LocalStorageEx1";
 import { Practice } from "./Components/Practice";
+import { BasicExamples } from "./Components/BasicExamples";
 function App() {
   return (
     <div>
@@ -31,6 +32,7 @@ function App() {
       {/* <LocalStorageEx /> */}
       {/* <LocalStorageEx1 /> */}
       {/* <Practice /> */}
+      <BasicExamples />
     </div>
   );
 }
