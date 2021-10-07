@@ -13,6 +13,7 @@ import { Lifting } from "./Components/Lifting";
 import { ItemsScrollBar } from "./Components/ItemsScrollBar";
 import { LocalStorageEx } from "./Components/LocalStorageEx";
 import { LocalStorageEx1 } from "./Components/LocalStorageEx1";
+import { Practice } from "./Components/Practice";
 function App() {
   return (
     <div>
@@ -21,7 +22,7 @@ function App() {
       {/* <CardExample /> */}
       {/* <FilterData /> */}
       {/* <FilterDataEx /> */}
-      <FilteredName />
+      {/*<FilteredName />*/}
       {/* <Nav1 /> */}
       {/* <Products1 /> */}
       {/* <Footer1 /> */}
@@ -29,6 +30,7 @@ function App() {
       {/* <ItemsScrollBar /> */}
       {/* <LocalStorageEx /> */}
       {/* <LocalStorageEx1 /> */}
+      {/* <Practice /> */}
     </div>
   );
 }
